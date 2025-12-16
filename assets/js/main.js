@@ -37,9 +37,8 @@
     const img = document.createElement('img');
     img.className = 'card__img';
     img.loading = 'lazy';
-    img.src = './assets/img/logo.png';
-    img.setAttribute('data-original', safe(product.image || ''));
-img.alt = product.name;
+    img.src = './assets/img/' + safe(product.image || 'logo.png');
+    img.alt = product.name;
     img.onerror = () => { img.src = './assets/img/logo.png'; };
 
     const body = document.createElement('div');
