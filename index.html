@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>產品介紹｜無忌採藥有限公司</title>
+  <meta name="description" content="無忌採藥有限公司｜產品介紹、食用方式、寄送說明與聯絡方式" />
+  <style>
+    /* 中醫師風格：紙本米色、藥材墨綠、朱砂印紅、墨色文字 */
+    :root{
+      --paper:#f6f1e6;          /* 宣紙底 */
+      --paper2:#efe6d6;         /* 深一點的紙色 */
+      --ink:#1b1b1b;            /* 墨色 */
+      --muted:#5d5d5d;          /* 次要文字 */
+      --herb:#2f5d50;           /* 藥草綠 */
+      --herb2:#3f7767;          /* 輔助綠 */
+      --seal:#b73a2a;           /* 朱砂紅 */
+      --line:#d9cfbf;           /* 紙紋線 */
+      --shadow: 0 10px 28px rgba(27,27,27,.14);
+      --radius: 18px;
+      --max: 1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "PingFang TC",
+                   "Microsoft JhengHei", "Noto Sans TC", system-ui, sans-serif;
+      color:var(--ink);
+      line-height:1.7;
+      background:
+        radial-gradient(900px 520px at 15% -10%, rgba(63,119,103,.18), transparent 60%),
+        radial-gradient(720px 460px at 95% 0%, rgba(183,58,42,.12), transparent 55%),
+        linear-gradient(180deg, var(--paper), var(--paper2));
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max);margin:0 auto;padding:26px 18px 56px}
+
+    header{
+      position:sticky; top:0; z-index:50;
+      background: rgba(246,241,230,.78);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid rgba(217,207,191,.9);
+    }
+    .topbar{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:12px 18px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:space-between
+    }
+    .brand{display:flex;gap:10px;align-items:center}
+    .logo{
+      width:38px;height:38px;border-radius:12px;
+      background:
+        linear-gradient(135deg, rgba(47,93,80,.95), rgba(63,119,103,.85));
+      box-shadow: var(--shadow);
+      position:relative;
+    }
+    .logo::after{
+      content:"";
+      position:absolute;
+      right:-6px; bottom:-6px;
+      width:16px;height:16px;border-radius:999px;
+      background: rgba(183,58,42,.92);
+      box-shadow: 0 6px 14px rgba(183,58,42,.25);
+    }
+    .brand h1{margin:0;font-size:15px;letter-spacing:.5px}
+    .brand small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+
+    .nav{display:flex;gap:10px;align-items:center}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      padding:10px 14px;border-radius:14px;
+      border:1px solid rgba(217,207,191,.95);
+      background: rgba(255,255,255,.35);
+      color:var(--ink);
+      box-shadow: 0 8px 18px rgba(27,27,27,.08);
+      transition:.15s ease;
+      font-weight:800;
+    }
+    .btn:hover{transform: translateY(-1px); border-color: rgba(63,119,103,.55)}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(183,58,42,.96), rgba(183,58,42,.78));
+      border-color: rgba(183,58,42,.55);
+      color: #fff;
+    }
+
+    .hero{padding:34px 0 18px}
+    .heroGrid{display:grid;gap:16px;grid-template-columns: 1.2fr .8fr}
+    @media (max-width: 880px){
+      .heroGrid{grid-template-columns:1fr}
+      .nav{display:none}
+    }
+
+    .card{
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.30));
+      border:1px solid rgba(217,207,191,.95);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .heroMain{padding:26px 22px}
+    .kicker{
+      display:inline-flex;gap:8px;align-items:center;
+      color: var(--herb);
+      font-weight:900;font-size:13px;
+      letter-spacing:.8px;
+      text-transform:uppercase;
+    }
+    .dot{width:8px;height:8px;border-radius:99px;background:var(--herb2);box-shadow:0 0 0 6px rgba(63,119,103,.14)}
+    .hero h2{margin:14px 0 10px;font-size:34px;line-height:1.25}
+    .hero p{margin:0;color:var(--muted);max-width:62ch}
+    .heroActions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .heroAside{padding:22px}
+    .infoRow{
+      display:flex;gap:10px;align-items:flex-start;
+      padding:12px;border-radius:16px;
+      border:1px solid rgba(217,207,191,.95);
+      background: rgba(255,255,255,.35)
+    }
+    .infoRow b{display:block}
+    .infoRow span{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+    .icon{
+      width:34px;height:34px;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;
+      background: rgba(63,119,103,.12);
+      border:1px solid rgba(63,119,103,.20);
+      flex:0 0 auto;
+    }
+
+    .sectionTitle{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin:26px 0 12px}
+    .sectionTitle h3{margin:0;font-size:20px}
+    .sectionTitle p{margin:0;color:var(--muted);font-size:13px}
+
+    .grid{display:grid; gap:14px; grid-template-columns: repeat(2, 1fr)}
+    @media (max-width: 720px){ .grid{grid-template-columns: 1fr;} }
+
+    .product{display:flex;flex-direction:column;min-height:100%}
+    .thumb{
+      aspect-ratio: 4/3;
+      background: rgba(255,255,255,.35);
+      border-bottom:1px solid rgba(217,207,191,.95);
+      overflow:hidden;
+    }
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+
+    .pBody{padding:16px}
+    .pBody h4{margin:0 0 6px;font-size:18px}
+    .badges{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 10px}
+    .badge{
+      font-size:12px;
+      color: #fff;
+      background: linear-gradient(135deg, rgba(47,93,80,.95), rgba(63,119,103,.78));
+      border:1px solid rgba(47,93,80,.22);
+      padding:5px 10px;border-radius:999px;
+      font-weight:800;
+    }
+    .list{margin:10px 0 0;padding-left:18px;color:var(--muted);font-size:14px}
+
+    .note{
+      margin-top:10px;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px dashed rgba(183,58,42,.40);
+      background: rgba(183,58,42,.06);
+      color: #6a2a22;
+      font-size: 13px;
+      font-weight:700;
+    }
+
+    .priceRow{
+      margin-top:auto;
+      padding:14px 16px;
+      border-top:1px solid rgba(217,207,191,.95);
+      display:flex;justify-content:space-between;align-items:center;gap:10px
+    }
+    .price{font-weight:950;color:var(--seal)}
+
+    footer{margin-top:28px}
+    .footGrid{display:grid;gap:14px;grid-template-columns: 1fr 1fr}
+    @media (max-width: 820px){ .footGrid{grid-template-columns:1fr} }
+    .footCard{padding:18px}
+    .muted{color:var(--muted)}
+    .small{font-size:13px}
+    .hr{height:1px;background:rgba(217,207,191,.95);margin:14px 0}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>無忌採藥有限公司</h1>
+          <small>產品介紹｜日常調養｜諮詢下單</small>
+        </div>
+      </div>
+      <div class="nav">
+        <a class="btn" href="#products">產品</a>
+        <a class="btn" href="#contact">聯絡</a>
+        <a class="btn primary" href="tel:02-2987-9526">一鍵撥號</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" id="top">
+      <div class="heroGrid">
+        <div class="card heroMain">
+          <div class="kicker"><span class="dot"></span> 單頁產品介紹</div>
+          <h2>把產品說清楚，客人就比較不會問到你想裝忙。</h2>
+          <p>本頁提供：產品介紹、食用方式、寄送說明與聯絡方式。看完想詢問，直接點「一鍵撥號」就好。</p>
+          <div class="heroActions">
+            <a class="btn primary" href="#products">看產品</a>
+            <a class="btn" href="#contact">我要詢問</a>
+          </div>
+          <div class="note">
+            提醒：本頁以「保健調養用途」描述；如有特殊狀況、孕哺期或慢性病用藥者，建議先諮詢專業人士。
+          </div>
+        </div>
+
+        <aside class="card heroAside">
+          <div class="infoRow">
+            <div class="icon">☎</div>
+            <div>
+              <b>電話</b>
+              <span>02-2987-9526</span>
+            </div>
+          </div>
+          <div style="height:10px"></div>
+          <div class="infoRow">
+            <div class="icon">📦</div>
+            <div>
+              <b>寄送</b>
+              <span>玻璃瓶品項：限定郵局宅配</span>
+            </div>
+          </div>
+          <div style="height:10px"></div>
+          <div class="infoRow">
+            <div class="icon">✅</div>
+            <div>
+              <b>下單方式</b>
+              <span>私訊／電話確認內容與寄送</span>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="muted small">
+            小技巧：把本頁連結貼在 FB/LINE 置頂，客人先自動閱讀，你少打字、他少猶豫。
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="sectionTitle">
+        <h3>產品介紹</h3>
+        <p>共 4 項</p>
+      </div>
+
+      <div class="grid">
+        <article class="card product">
+          <div class="thumb">
+            <img src="biaofengzaici.jpg" alt="彪風再起｜藥粉套組（淫羊藿、天仙茅、韭菜子）">
+          </div>
+          <div class="pBody">
+            <h4>彪風再起｜藥粉套組</h4>
+            <div class="badges">
+              <span class="badge">套組</span>
+              <span class="badge">日常調養</span>
+              <span class="badge">飯後服用</span>
+            </div>
+            <ul class="list">
+              <li>組合內容：淫羊藿（仙靈脾）／天仙茅／韭菜子</li>
+              <li>傳統用於補腎調養，支持體力與精神狀態</li>
+              <li>服用方式：三種可同時吃；飯後服用，早晚各一平匙</li>
+            </ul>
+          </div>
+          <div class="priceRow">
+            <span class="muted small">售價</span>
+            <span class="price">NT$ 1,300 / 組</span>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="thumb">
+            <img src="guiluerxianyin.jpg" alt="龜鹿二仙飲（12入裝）">
+          </div>
+          <div class="pBody">
+            <h4>龜鹿二仙飲（12 入裝）</h4>
+            <div class="badges">
+              <span class="badge">12 瓶/盒</span>
+              <span class="badge">液態方便</span>
+              <span class="badge">日常保養</span>
+            </div>
+            <ul class="list">
+              <li>食用方式：每日一瓶；飲用前先搖勻</li>
+              <li>開封後請一次飲用完畢</li>
+              <li>保存：室溫貯存，避免高溫及日照</li>
+            </ul>
+            <div class="note">⚠️ 玻璃瓶裝：寄送限定「郵局宅配」，不提供超商取貨。</div>
+          </div>
+          <div class="priceRow">
+            <span class="muted small">售價</span>
+            <span class="price">請來電/私訊詢價</span>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="thumb">
+            <img src="banlongwan.jpg" alt="班龍丸">
+          </div>
+          <div class="pBody">
+            <h4>班龍丸</h4>
+            <div class="badges">
+              <span class="badge">丸劑</span>
+              <span class="badge">體力支持</span>
+              <span class="badge">日常調養</span>
+            </div>
+            <ul class="list">
+              <li>傳統用於補腎調養，支持體力與筋骨健康</li>
+              <li>服用方式：每日 2 次，早晚飯後服用</li>
+              <li>每次 5 粒；一罐約可食用 15 天</li>
+            </ul>
+          </div>
+          <div class="priceRow">
+            <span class="muted small">售價</span>
+            <span class="price">請來電/私訊詢價</span>
+          </div>
+        </article>
+
+        <article class="card product">
+          <div class="thumb">
+            <img src="shengxuetiaojingwan.jpg" alt="生血調經丸（100錠）">
+          </div>
+          <div class="pBody">
+            <h4>生血調經丸（100 錠）</h4>
+            <div class="badges">
+              <span class="badge">100 錠</span>
+              <span class="badge">女性調養</span>
+              <span class="badge">早晚服用</span>
+            </div>
+            <ul class="list">
+              <li>傳統用於調經補養，支持女性生理期前後的舒適度</li>
+              <li>服用方式：早晚各一次</li>
+              <li>每次 3 錠</li>
+            </ul>
+          </div>
+          <div class="priceRow">
+            <span class="muted small">售價</span>
+            <span class="price">請來電/私訊詢價</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="sectionTitle">
+        <h3>聯絡我們</h3>
+        <p>想問就問，別跟身體玩猜拳。</p>
+      </div>
+
+      <div class="footGrid">
+        <div class="card footCard">
+          <b>快速聯絡</b>
+          <div class="muted small" style="margin-top:6px">
+            公司：無忌採藥有限公司<br/>
+            電話：<a href="tel:02-2987-9526">02-2987-9526</a>
+          </div>
+          <div class="heroActions" style="margin-top:12px">
+            <a class="btn primary" href="tel:02-2987-9526">一鍵撥號</a>
+            <a class="btn" href="#" onclick="copyPhone();return false;">複製電話</a>
+          </div>
+          <div class="muted small" id="copyHint" style="margin-top:10px;"></div>
+        </div>
+
+        <div class="card footCard">
+          <b>重要聲明</b>
+          <div class="muted small" style="margin-top:6px">
+            本頁內容以日常保健與調養用途為主，<br/>
+            <b>非藥品、非醫療行為</b>；實際感受因個人體質而異。<br/>
+            如有特殊狀況、孕哺期或慢性病用藥者，建議先諮詢專業人士。
+          </div>
+          <div class="hr"></div>
+          <div class="muted small">玻璃瓶商品寄送：限定郵局宅配，請留意收件時間。</div>
+        </div>
+      </div>
+
+      <div class="muted small" style="margin-top:16px">
+        © <span id="year"></span> 無忌採藥有限公司｜保留所有權利
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const PHONE = "02-2987-9526";
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    async function copyPhone(){
+      const hint = document.getElementById("copyHint");
+      try{
+        await navigator.clipboard.writeText(PHONE);
+        hint.textContent = "已複製！貼到 LINE/簡訊就能直接丟給客人。";
+      } catch(e){
+        hint.textContent = "複製失敗：瀏覽器可能阻擋剪貼簿權限。";
+      }
+      setTimeout(()=>hint.textContent="", 2500);
+    }
+  </script>
+</body>
+</html>
