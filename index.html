@@ -19,7 +19,7 @@
         <img class="brand__logo" src="./assets/img/logo.png" alt="無忌" />
         <div class="brand__text">
           <div class="brand__name">無忌採藥有限公司</div>
-          <div class="brand__tag">產品介紹｜中藥行實體經營</div>
+          <div class="brand__tag">產品介紹</div>
         </div>
       </a>
 
@@ -102,7 +102,7 @@
             <p class="contactCard__sub">
               ✔ 依體質一對一建議<br />
               ✔ 非制式推銷<br />
-              ✔ 中藥行實體經營
+              ✔ 
             </p>
             <div class="contactCard__cta">
               <a class="btn btn--primary btn--lg" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">
@@ -151,5 +151,36 @@
   </a>
 
   <script src="./assets/js/main.js"></script>
+
+  <!-- 丹蔘茶系列彈窗 -->
+  <div id="danshenModal" class="modal" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="danshenModalTitle">
+      <button class="modal__close" type="button" aria-label="關閉" data-modal-close>×</button>
+      <h3 id="danshenModalTitle" class="modal__title">丹蔘茶系列</h3>
+      <p class="modal__subtitle">三款各有特色，點擊可查看介紹（同頁彈窗，不跳頁）。</p>
+
+      <div class="modal__grid">
+        <button class="modalCard" type="button">
+          <img src="assets/img/danshen-wuda.png" alt="武大漢丹蔘茶" />
+          <div class="modalCard__name">武大漢丹蔘茶</div>
+        </button>
+        <button class="modalCard" type="button">
+          <img src="assets/img/danshen-xianti.png" alt="台灣丹蔘纖體茶" />
+          <div class="modalCard__name">台灣丹蔘纖體茶</div>
+        </button>
+        <button class="modalCard" type="button">
+          <img src="assets/img/danshen-shuhuo.png" alt="台灣丹蔘舒活茶" />
+          <div class="modalCard__name">台灣丹蔘舒活茶</div>
+        </button>
+      </div>
+
+      <div class="modal__note">
+        💬 價格與搭配請洽官方 LINE<br/>
+        📌 可依體質協助搭配建議
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
