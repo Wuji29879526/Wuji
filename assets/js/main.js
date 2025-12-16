@@ -121,3 +121,27 @@
   }
   render();
 })();
+
+
+// 丹蔘茶系列：同頁彈窗
+(function(){
+  const modal = document.getElementById('danshenModal');
+  if(!modal) return;
+  const open = ()=>{ modal.classList.add('is-open'); modal.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; };
+  const close = ()=>{ modal.classList.remove('is-open'); modal.setAttribute('aria-hidden','true'); document.body.style.overflow=''; };
+  modal.addEventListener('click', (e)=>{
+    const t = e.target;
+    if(t && t.closest('[data-modal-close]')) close();
+  });
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && modal.classList.contains('is-open')) close(); });
+
+  // 綁定：產品卡「台灣丹蔘茶包系列」點擊開啟
+  document.addEventListener('click', (e)=>{
+    const card = e.target.closest && e.target.closest('.card');
+    if(!card) return;
+    const titleEl = card.querySelector('.card-title');
+    if(!titleEl) return;
+    const name = (titleEl.textContent || '').trim();
+    if(name === '台灣丹蔘茶包系列') open();
+  });
+})();
