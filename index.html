@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>產品介紹｜無忌採藥有限公司</title>
   <meta name="description" content="無忌採藥有限公司｜產品介紹、食用方式、寄送說明與聯絡方式" />
+  <link rel="icon" type="image/png" href="favicon.png">
   <style>
     /* 中醫師風格：紙本米色、藥材墨綠、朱砂印紅、墨色文字 */
     :root{
@@ -186,14 +187,72 @@
     .muted{color:var(--muted)}
     .small{font-size:13px}
     .hr{height:1px;background:rgba(217,207,191,.95);margin:14px 0}
-  </style>
+  
+/* 浮動 LINE 按鈕 */
+.line-float{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #06C755;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,.28);
+  z-index: 999;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+.line-float:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0,0,0,.35);
+}
+@media (max-width: 600px){
+  .line-float{
+    width: 72px;
+    height: 72px;
+    font-size: 15px;
+  }
+}
+
+/* 使用店招圖片作為商標（覆蓋原本色塊Logo） */
+.logo{
+  width: 132px;
+  height: auto;
+  border-radius: 10px;
+  background: rgba(255,255,255,.72);
+  padding: 6px;
+  border: 1px solid rgba(217,207,191,.95);
+  box-shadow: var(--shadow);
+}
+.logo::after{ display:none !important; }
+
+
+/* 商標僅保留「無忌」兩字 */
+.logo{
+  width: 96px;
+  height: auto;
+  border-radius: 10px;
+  background: rgba(255,255,255,.75);
+  padding: 6px;
+  border: 1px solid rgba(217,207,191,.95);
+  box-shadow: var(--shadow);
+}
+
+</style>
+
 </head>
 
 <body>
   <header>
     <div class="topbar">
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+        <img src="logo.png" alt="無忌採藥有限公司" class="logo">
         <div>
           <h1>無忌採藥有限公司</h1>
           <small>產品介紹｜日常調養｜諮詢下單</small>
@@ -202,7 +261,7 @@
       <div class="nav">
         <a class="btn" href="#products">產品</a>
         <a class="btn" href="#contact">聯絡</a>
-        <a class="btn primary" href="tel:02-2987-9526">一鍵撥號</a>
+        <a class="btn primary" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">一鍵撥號</a>
       </div>
     </div>
   </header>
@@ -365,17 +424,29 @@
 
       <div class="footGrid">
         <div class="card footCard">
-          <b>快速聯絡</b>
-          <div class="muted small" style="margin-top:6px">
-            公司：無忌採藥有限公司<br/>
-            電話：<a href="tel:02-2987-9526">02-2987-9526</a>
-          </div>
-          <div class="heroActions" style="margin-top:12px">
-            <a class="btn primary" href="tel:02-2987-9526">一鍵撥號</a>
-            <a class="btn" href="#" onclick="copyPhone();return false;">複製電話</a>
-          </div>
-          <div class="muted small" id="copyHint" style="margin-top:10px;"></div>
-        </div>
+          
+<b>快速聯絡</b>
+
+<div class="muted small" style="margin-top:10px; line-height:1.8">
+  想了解更多請加入官方 LINE<br/>
+  將有專人為您一對一服務
+</div>
+
+<div class="heroActions" style="margin-top:14px">
+  <a class="btn primary"
+     href="https://lin.ee/1MK4NR9"
+     target="_blank"
+     rel="noopener">
+     章無忌官網推薦連結
+  </a>
+</div>
+
+<div class="muted small" style="margin-top:10px; word-break:break-all">
+  https://lin.ee/1MK4NR9
+</div>
+</div>
+</div>
+
 
         <div class="card footCard">
           <b>重要聲明</b>
@@ -410,5 +481,14 @@
       setTimeout(()=>hint.textContent="", 2500);
     }
   </script>
+
+<a href="https://lin.ee/1MK4NR9"
+   target="_blank"
+   rel="noopener"
+   class="line-float"
+   aria-label="諮詢">
+  LINE
+</a>
 </body>
+
 </html>
