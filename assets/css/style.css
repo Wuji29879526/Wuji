@@ -298,3 +298,10 @@ img{max-width:100%;display:block}
   .grid{grid-template-columns: 1fr}
   .brand__tag{display:none}
 }
+
+
+/* Single-column contact card (right panel removed) */
+.contactCard.contactCard--single{
+  grid-template-columns: 1fr;
+}
+
