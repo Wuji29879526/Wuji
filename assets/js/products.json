@@ -15,20 +15,19 @@
       "id": "sizhenbao",
       "name": "四珍寶",
       "category": "滋補精品",
-      "image": "assets/img/sijhenbao.jpg",
+      "image": "sijhenbao.jpg",
       "subtitle": "一盒一斤裝（64 小片）",
       "usage": [
         "一日服用一片"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "xianjiawei-guilu",
       "name": "仙加味龜鹿膏",
       "category": "滋補精品",
-      "image": "assets/img/xianjiawei_guilugao.jpg",
+      "image": "LINE_NOTE_251216_18.jpg",
       "subtitle": "100g/罐（±5g），保存期限 2 年",
       "effects": [
         "日常滋補調養"
@@ -37,7 +36,6 @@
         "早中晚皆可，空腹可食用",
         "每日一平匙，沖 100cc 溫熱水攪拌均勻即可食用"
       ],
-      "note": "📌 可依體質協助搭配建議",
       "price": "💬 價格與搭配請洽官方 LINE",
       "price_note": "📌 可依體質協助搭配建議"
     },
@@ -45,7 +43,7 @@
       "id": "heitangxianzhawumei",
       "name": "黑糖仙楂烏梅茶",
       "category": "日常養生茶飲",
-      "image": "heitangxianzhawumeicha.jpg",
+      "image": "LINE_NOTE_251216_14.jpg",
       "effects": [
         "日常茶飲調理"
       ],
@@ -54,14 +52,13 @@
         "放涼後即可飲用"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "wujixianticha",
       "name": "無忌纖體茶",
       "category": "日常養生茶飲",
-      "image": "wujixianticha.jpg",
+      "image": "LINE_NOTE_251216_10.jpg",
       "effects": [
         "增加體內代謝"
       ],
@@ -70,14 +67,13 @@
         "500cc 熱水沖泡，可回沖"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "zhenzhulvdou",
       "name": "珍珠綠豆癀膠囊",
       "category": "日常調養",
-      "image": "zhenzhulvdouhuang.jpg",
+      "image": "LINE_NOTE_251216_13.jpg",
       "effects": [
         "日常清爽調理",
         "依需求搭配"
@@ -87,14 +83,13 @@
         "一次 2–3 顆，飯前飯後皆可"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "huatansan",
       "name": "化痰散",
       "category": "日常調養",
-      "image": "assets/img/products/huatansan.jpg",
+      "image": "LINE_NOTE_251216_11.jpg",
       "effects": [
         "感冒咳嗽調理",
         "鎮咳化痰"
@@ -104,14 +99,13 @@
         "一次 2 湯匙（內附湯匙）"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "shengxue",
       "name": "生血調經丸",
       "category": "女性調理",
-      "image": "shengxuetiaojingwan.jpg",
+      "image": "LINE_NOTE_251216_4.jpg",
       "effects": [
         "調經補血",
         "經來腹痛、頭暈目暗",
@@ -122,14 +116,13 @@
         "100 錠/瓶"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "qibaomeirandan",
       "name": "七寶美髯丹",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/qibaomeirandan.jpg",
+      "image": "LINE_NOTE_251216_5.jpg",
       "effects": [
         "氣血不足、腎虛體弱調養",
         "補腎元、烏鬚髮"
@@ -139,14 +132,13 @@
         "飯前或食間以溫開水送服"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "banlongwan",
       "name": "班龍丸",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/banlongwan.jpg",
+      "image": "LINE_NOTE_251216_3.jpg",
       "effects": [
         "增強體力",
         "補腎壯陽",
@@ -158,14 +150,13 @@
         "一罐可吃 15 天"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "sangpiaoxiaosan",
       "name": "桑螵蛸散",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/sangpiaoxiaosan.jpg",
+      "image": "LINE_NOTE_251216_15.jpg",
       "effects": [
         "調補心腎",
         "固精止遺",
@@ -176,14 +167,13 @@
         "飯前一次 2 平匙"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "jinsuogujingwan",
       "name": "金鎖固精丸",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/jinsuogujingwan.jpg",
+      "image": "LINE_NOTE_251216_8.jpg",
       "effects": [
         "收澀固精",
         "改善男性敏感問題"
@@ -194,14 +184,13 @@
         "一瓶約服用 20 天"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "biaofeng-suite",
       "name": "彪風再起｜藥粉套組",
       "category": "男性調養系列",
-      "image": "assets/img/biaofengzaici.jpg",
+      "image": "LINE_NOTE_251216_1.jpg",
       "subtitle": "淫羊藿（仙靈脾）/ 天仙茅 / 韭菜子",
       "effects": [
         "補養日常活力調養",
@@ -212,14 +201,13 @@
         "飯後服用，早晚各一平匙"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "danshen-series",
       "name": "台灣丹蔘茶包系列",
       "category": "日常養生茶飲",
-      "image": "assets/img/products/danshen_wudahan.jpg",
+      "image": "LINE_NOTE_251216_19.jpg",
       "subtitle": "武大漢／纖體茶／舒活茶",
       "effects": [
         "武大漢：內含瑪卡及中藥材，男性調養方向",
@@ -232,14 +220,13 @@
         "可回沖 2–3 次"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "xiongfeng-suite",
       "name": "雄風再起套組",
       "category": "男性調養系列",
-      "image": "assets/img/biaofengzaici.jpg",
+      "image": "biaofengzaici.jpg",
       "subtitle": "肉蓯蓉粉 / 淫羊藿粉 / 馬卡粉（各 100g）",
       "effects": [
         "補養日常活力調養",
@@ -252,14 +239,13 @@
         "加強期間：一天兩次，早晚飯後服用；一次各一平匙"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "geiliyangyihao",
       "name": "給力羊壹號（高濃縮錠劑）",
       "category": "男性調養系列",
-      "image": "assets/img/products/geiliyangyihao.jpg",
+      "image": "LINE_NOTE_251216_16.jpg",
       "effects": [
         "促進循環",
         "提升日常精神與活力"
@@ -269,14 +255,13 @@
         "一次一粒（60 粒/瓶）"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "dajiubao",
       "name": "大九寶膠囊",
       "category": "男性調養系列",
-      "image": "assets/img/dajiubaojiaonang.jpg",
+      "image": "LINE_NOTE_251216_12.jpg",
       "effects": [
         "日常滋補強身",
         "增強體力"
@@ -286,14 +271,13 @@
         "10 粒/盒"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "sanbianjiu",
       "name": "三鞭酒 PLUS",
       "category": "男性調養系列",
-      "image": "sanbianjiu_plus.jpg",
+      "image": "logo.png",
       "effects": [
         "補養調理",
         "強筋健骨"
@@ -304,14 +288,13 @@
         "750cc/瓶"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "dalijingangjiu",
       "name": "大力金鋼酒（泡酒帖）",
       "category": "男性調養系列",
-      "image": "dalijingangjiu.jpg",
+      "image": "logo.png",
       "subtitle": "杜仲/金英子/黑桑椹/千金拔/牛大力/石頭果（風流果）",
       "effects": [
         "滋養補腎",
@@ -322,14 +305,13 @@
         "浸泡 45 天後可飲用"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "jishenshenqiwan",
       "name": "濟生腎氣丸（1斤裝）",
       "category": "腎氣・體力調養",
-      "image": "assets/img/jishenshenqiwang.jpg",
+      "image": "LINE_NOTE_251216_7.jpg",
       "effects": [
         "溫腎化氣",
         "利水消腫"
@@ -339,14 +321,13 @@
         "飯前/飯後皆可"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "haishaodan",
       "name": "還少丹（1斤裝）",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/haishaodan.jpg",
+      "image": "LINE_NOTE_251216_9.jpg",
       "effects": [
         "滋陰補腎",
         "增強體力"
@@ -357,14 +338,13 @@
         "一瓶約可服用 1 個半月"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "sishenfen",
       "name": "四神粉（20包）",
       "category": "日常養生茶飲",
-      "image": "assets/img/products/sishenfen.jpg",
+      "image": "LINE_NOTE_251216_6.jpg",
       "effects": [
         "日常營養補給",
         "可與奶粉調配沖泡"
@@ -374,14 +354,13 @@
         "濃度可依喜好調整"
       ],
       "price": "💬 價格與搭配請洽官方 LINE",
-      "price_note": "📌 可依體質協助搭配建議",
-      "note": "📌 可依體質協助搭配建議"
+      "price_note": "📌 可依體質協助搭配建議"
     },
     {
       "id": "guiluerxianyin",
       "name": "龜鹿二仙飲（12入裝）",
       "category": "滋補精品",
-      "image": "guiluerxianyin.jpg",
+      "image": "LINE_NOTE_251216_2.jpg",
       "effects": [
         "日常滋補調養"
       ],
@@ -389,7 +368,6 @@
         "每日一瓶",
         "食用前請先搖勻後飲用"
       ],
-      "note": "📌 可依體質協助搭配建議",
       "price": "💬 價格與搭配請洽官方 LINE",
       "price_note": "📌 可依體質協助搭配建議"
     }
