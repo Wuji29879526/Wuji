@@ -73,7 +73,7 @@ img{max-width:100%;display:block}
 .btn__dot{width:10px;height:10px;border-radius:50%; background:var(--line); box-shadow:0 0 0 4px rgba(6,199,85,.18)}
 
 .hero{padding:42px 0 24px}
-.hero__inner{display:grid; grid-template-columns: 1.2fr .8fr; gap:22px; align-items:stretch}
+.hero__inner{display:grid; grid-template-columns: 1fr; gap:22px; align-items:stretch}
 .hero__title{
   font-family:"Noto Serif TC",serif;
   font-size:40px; line-height:1.18;
