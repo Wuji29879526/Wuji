@@ -1,0 +1,335 @@
+{
+  "company": "無忌採藥有限公司",
+  "phone": "02-2987-9526",
+  "line_url": "https://lin.ee/1MK4NR9",
+  "categories": [
+    "男性調養系列",
+    "腎氣・體力調養",
+    "女性調理",
+    "日常調養",
+    "日常養生茶飲",
+    "滋補精品"
+  ],
+  "products": [
+    {
+      "id": "sizhenbao",
+      "name": "四珍寶",
+      "category": "滋補精品",
+      "image": "sijhenbao.jpg",
+      "subtitle": "一盒一斤裝（64 小片）",
+      "effects": [
+        "日常滋補調養"
+      ],
+      "usage": [
+        "一日服用一片"
+      ]
+    },
+    {
+      "id": "xianjiawei-guilu",
+      "name": "仙加味龜鹿膏",
+      "category": "滋補精品",
+      "image": "LINE_NOTE_251216_18.jpg",
+      "subtitle": "100g/罐（±5g），保存期限 2 年",
+      "effects": [
+        "日常滋補調養"
+      ],
+      "usage": [
+        "早中晚皆可，空腹可食用",
+        "每日一平匙，沖 100cc 溫熱水攪拌均勻即可食用"
+      ]
+    },
+    {
+      "id": "guiluerxianyin",
+      "name": "龜鹿二仙飲（12入裝）",
+      "category": "滋補精品",
+      "image": "LINE_NOTE_251216_2.jpg",
+      "effects": [
+        "日常滋補調養"
+      ],
+      "usage": [
+        "每日一瓶",
+        "食用前請先搖勻後飲用"
+      ]
+    },
+    {
+      "id": "heitangxianzhawumei",
+      "name": "黑糖仙楂烏梅茶",
+      "category": "日常養生茶飲",
+      "image": "LINE_NOTE_251216_14.jpg",
+      "effects": [
+        "日常茶飲調理"
+      ],
+      "usage": [
+        "熱水沖泡，攪拌均勻後靜置 3–5 分鐘",
+        "放涼後即可飲用"
+      ]
+    },
+    {
+      "id": "wujixianticha",
+      "name": "無忌纖體茶",
+      "category": "日常養生茶飲",
+      "image": "LINE_NOTE_251216_10.jpg",
+      "effects": [
+        "增加體內代謝"
+      ],
+      "usage": [
+        "一天一包",
+        "500cc 熱水沖泡，可回沖"
+      ]
+    },
+    {
+      "id": "sishenfen",
+      "name": "四神粉（20包）",
+      "category": "日常養生茶飲",
+      "image": "sishenfen.jpg",
+      "effects": [
+        "日常營養補給"
+      ],
+      "usage": [
+        "取一份（25g）加入 250c.c. 溫開水沖泡",
+        "濃度可依喜好調整"
+      ]
+    },
+    {
+      "id": "danshen-series",
+      "name": "台灣丹蔘茶包系列",
+      "category": "日常養生茶飲",
+      "image": "danshen_wudahan.jpg",
+      "subtitle": "武大漢／纖體茶／舒活茶",
+      "series_items": [
+        {
+          "key": "wudahan",
+          "name": "武大漢丹蔘茶",
+          "image": "danshen_wudahan.jpg",
+          "desc": "內含瑪卡及中藥材，加強男性功能",
+          "usage": [
+            "一日一包，用 500cc 水沖泡（冷熱飲皆可）",
+            "可回沖 2–3 次"
+          ]
+        },
+        {
+          "key": "slim",
+          "name": "纖體茶",
+          "image": "danshen_slim.jpg",
+          "desc": "促進代謝中藥茶包，用於體態雕塑、減低食欲",
+          "usage": [
+            "一日一包，用 500cc 水沖泡（冷熱飲皆可）",
+            "可回沖 2–3 次"
+          ]
+        },
+        {
+          "key": "shuhuo",
+          "name": "舒活茶",
+          "image": "danshen_relax.jpg",
+          "desc": "補氣活血，預防心血管疾病，增強心肺功能",
+          "usage": [
+            "一日一包，用 500cc 水沖泡（冷熱飲皆可）",
+            "可回沖 2–3 次"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhenzhulvdou",
+      "name": "珍珠綠豆癀膠囊",
+      "category": "日常調養",
+      "image": "LINE_NOTE_251216_13.jpg",
+      "effects": [
+        "日常清爽調理"
+      ],
+      "usage": [
+        "早晚各一次",
+        "一次 2–3 顆，飯前飯後皆可"
+      ]
+    },
+    {
+      "id": "huatansan",
+      "name": "化痰散",
+      "category": "日常調養",
+      "image": "huatansan.jpg",
+      "effects": [
+        "日常調理"
+      ],
+      "usage": [
+        "一天三次，飯前飯後皆可",
+        "一次 2 湯匙（內附湯匙）"
+      ]
+    },
+    {
+      "id": "shengxue",
+      "name": "生血調經丸",
+      "category": "女性調理",
+      "image": "LINE_NOTE_251216_4.jpg",
+      "effects": [
+        "調經補血",
+        "經來腹痛、頭暈目暗",
+        "月經進退、腰骨痠痛、白帶"
+      ],
+      "usage": [
+        "早晚各一次，一次 3 錠",
+        "100 錠/瓶"
+      ]
+    },
+    {
+      "id": "qibaomeirandan",
+      "name": "七寶美髯丹",
+      "category": "腎氣・體力調養",
+      "image": "qibaomeirandan.jpg",
+      "effects": [
+        "氣血不足、腎虛體弱調養",
+        "補腎元、烏鬚髮"
+      ],
+      "usage": [
+        "成人一次 10 丸，一日三次",
+        "飯前或食間以溫開水送服"
+      ]
+    },
+    {
+      "id": "banlongwan",
+      "name": "班龍丸",
+      "category": "腎氣・體力調養",
+      "image": "banlongwan.jpg",
+      "effects": [
+        "增強體力",
+        "補腎壯陽",
+        "強筋壯骨"
+      ],
+      "usage": [
+        "一天兩次，早晚飯後服用",
+        "一次 5 粒",
+        "一罐可吃 15 天"
+      ]
+    },
+    {
+      "id": "sangpiaoxiaosan",
+      "name": "桑螵蛸散",
+      "category": "腎氣・體力調養",
+      "image": "sangpiaoxiaosan.jpg",
+      "effects": [
+        "調補心腎",
+        "固精止遺",
+        "改善頻尿"
+      ],
+      "usage": [
+        "一天三次",
+        "飯前一次 2 平匙"
+      ]
+    },
+    {
+      "id": "jinsuogujingwan",
+      "name": "金鎖固精丸",
+      "category": "腎氣・體力調養",
+      "image": "jinsuogujingwan.jpg",
+      "effects": [
+        "收澀固精",
+        "改善男性敏感問題"
+      ],
+      "usage": [
+        "一次 2 平匙，一日三次",
+        "飯前服用",
+        "一瓶約服用 20 天"
+      ]
+    },
+    {
+      "id": "haishaodan",
+      "name": "還少丹（1斤裝）",
+      "category": "腎氣・體力調養",
+      "image": "haishaodan.jpg",
+      "effects": [
+        "滋陰補腎",
+        "增強體力"
+      ],
+      "usage": [
+        "一日三餐，飯前服用",
+        "一次 8–10 顆",
+        "一瓶約可服用 1 個半月"
+      ]
+    },
+    {
+      "id": "geiliyangyihao",
+      "name": "給力羊壹號（高濃縮錠劑）",
+      "category": "男性調養系列",
+      "image": "geiliyangyihao.jpg",
+      "effects": [
+        "促進循環",
+        "提升日常精神與活力"
+      ],
+      "usage": [
+        "一日兩次，早晚飯後服用",
+        "一次一粒（60 粒/瓶）"
+      ]
+    },
+    {
+      "id": "dajiubao",
+      "name": "大九寶膠囊",
+      "category": "男性調養系列",
+      "image": "LINE_NOTE_251216_12.jpg",
+      "effects": [
+        "日常滋補強身"
+      ],
+      "usage": [
+        "一天一次，一次一粒",
+        "10 粒/盒"
+      ]
+    },
+    {
+      "id": "biaofeng-suite",
+      "name": "彪風再起｜藥粉套組",
+      "category": "男性調養系列",
+      "image": "biaofengzaici.jpg",
+      "subtitle": "淫羊藿（仙靈脾）/ 天仙茅 / 韭菜子",
+      "effects": [
+        "日常活力調養"
+      ],
+      "usage": [
+        "三種藥粉可同時食用",
+        "飯後服用，早晚各一平匙"
+      ]
+    },
+    {
+      "id": "xiongfeng-suite",
+      "name": "雄風再起套組",
+      "category": "男性調養系列",
+      "image": "biaofengzaici.jpg",
+      "subtitle": "肉蓯蓉粉 / 淫羊藿粉 / 馬卡粉（各 100g）",
+      "effects": [
+        "日常活力調養"
+      ],
+      "usage": [
+        "三種藥粉可同時食用",
+        "保養：晚餐後一次各一平匙",
+        "加強：早晚飯後一次各一平匙"
+      ]
+    },
+    {
+      "id": "sanbianjiu",
+      "name": "三鞭酒 PLUS",
+      "category": "男性調養系列",
+      "image": "logo.png",
+      "effects": [
+        "補養調理",
+        "強筋健骨"
+      ],
+      "usage": [
+        "每日一杯 30cc",
+        "睡前 30 分鐘服用",
+        "750cc/瓶"
+      ]
+    },
+    {
+      "id": "dalijingangjiu",
+      "name": "大力金鋼酒（泡酒帖）",
+      "category": "男性調養系列",
+      "image": "logo.png",
+      "subtitle": "杜仲/金英子/黑桑椹/千金拔/牛大力/石頭果（風流果）",
+      "effects": [
+        "滋養補腎",
+        "強筋壯骨"
+      ],
+      "usage": [
+        "一帖浸泡約 2000cc 酒（35 度以上白酒）",
+        "浸泡 45 天後可飲用"
+      ]
+    }
+  ]
+}
