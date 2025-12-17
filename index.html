@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>無忌採藥有限公司｜產品介紹</title>
+  <meta name="description" content="無忌採藥有限公司產品介紹。搭配建議歡迎加入官方 LINE 一對一諮詢。" />
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/modal.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <img class="brand__logo" src="./assets/img/logo.png" alt="無忌" />
+        <div class="brand__text">
+          <div class="brand__name">無忌採藥有限公司</div>
+          <div class="brand__tag">產品介紹</div>
+        </div>
+      </a>
+
+      <!-- 已移除：頂部 LINE 諮詢按鈕 -->
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title">以體質為本的日常調養</h1>
+          <p class="hero__lead">
+            本店商品以中藥師經驗調養為核心，<br />
+            搭配建議歡迎私訊官方 LINE 一對一諮詢。
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--ghost" href="#products">瀏覽產品</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">產品分類</h2>
+          <p class="section__sub">先選分類更好找，也更不容易買到「不適合自己的那罐」。</p>
+        </div>
+
+        <div class="filters" id="categoryFilters" aria-label="產品分類篩選"></div>
+
+        <div class="grid" id="productGrid" aria-live="polite"></div>
+
+        <div class="section__foot">
+          <div class="notice">
+            <div class="notice__title">提醒</div>
+            <div class="notice__text">
+              本頁為產品介紹與日常調養方向參考；實際搭配與食用方式請以官方 LINE 諮詢建議為主。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="contactCard">
+          <div class="contactCard__left">
+            <h2 class="contactCard__title">👉 想了解適合自己的調養方式？</h2>
+            <p class="contactCard__sub">
+              ✔ 依體質一對一建議<br />
+              ✔ 非制式推銷<br />
+              ✔ 中藥行實體經營
+            </p>
+            <div class="contactCard__cta">
+              <a class="btn btn--primary btn--lg" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">
+                加入官方 LINE 諮詢
+              </a>
+            </div>
+            <div class="contactCard__links">
+              <div class="muted">章無忌官網推薦連結</div>
+              <a class="link" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">https://lin.ee/1MK4NR9</a>
+            </div>
+          </div>
+          <div class="contactCard__right">
+            <div class="contactCard__badge">LINE 一對一</div>
+            <div class="contactCard__hint">想問就問，不用先背誦一堆專有名詞。</div>
+            <div class="contactCard__qr"><div style="text-align:center;font-weight:900;">掃描加入 LINE</div><div class="muted" style="text-align:center;margin-top:6px;">或點擊左側按鈕</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="./assets/img/logo.png" alt="無忌" />
+        <div>
+          <div class="footer__name">無忌採藥有限公司</div>
+          <div class="footer__desc">
+            本店商品以中藥師經驗調養為核心，搭配建議歡迎私訊官方 LINE 一對一諮詢。
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__actions">
+        <a class="btn btn--line" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">加入官方 LINE</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <div class="muted">© <span id="year"></span> 無忌採藥有限公司</div>
+    </div>
+  </footer>
+
+  <!-- 已移除：右下角浮動 LINE 諮詢按鈕 -->
+
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Product Modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal__overlay" data-close="true"></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" aria-label="關閉" data-close="true">×</button>
+      <div id="modalContent" class="modal__content"></div>
+    </div>
+  </div>
+
+</body>
+</html>
