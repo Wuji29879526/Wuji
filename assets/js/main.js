@@ -147,14 +147,7 @@
 
     const subtitle = document.createElement('p');
     subtitle.className = 'card__subtitle';
-    subtitle.textContent = safe(product.subtitle || product.category);
-
-    const badges = document.createElement('div');
-    badges.className = 'badges';
-    const b1 = document.createElement('span');
-    b1.className = 'badge';
-    b1.textContent = safe(product.category);
-    badges.appendChild(b1);
+    subtitle.textContent = safe(product.subtitle || "");
 
     const list = document.createElement('ul');
     list.className = 'list';
@@ -187,7 +180,9 @@
     note.textContent = '📌 可依體質協助搭配建議';
     priceBox.append(price, note);
 
-    body.append(title, subtitle, badges, list, priceBox);
+    body.append(title);
+    if (product.subtitle) body.append(subtitle);
+    body.append(list, priceBox);
     wrapper.append(img, body);
 
     wrapper.addEventListener('click', ()=> openProduct(product));
