@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/modal.css" />
 </head>
 <body>
   <header class="header">
@@ -102,7 +103,7 @@
             <p class="contactCard__sub">
               ✔ 依體質一對一建議<br />
               ✔ 非制式推銷<br />
-              ✔ 
+              ✔ 中藥行實體經營
             </p>
             <div class="contactCard__cta">
               <a class="btn btn--primary btn--lg" href="https://lin.ee/1MK4NR9" target="_blank" rel="noopener">
@@ -152,33 +153,12 @@
 
   <script src="./assets/js/main.js"></script>
 
-  <!-- 丹蔘茶系列彈窗 -->
-  <div id="danshenModal" class="modal" aria-hidden="true">
-    <div class="modal__overlay" data-modal-close></div>
-    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="danshenModalTitle">
-      <button class="modal__close" type="button" aria-label="關閉" data-modal-close>×</button>
-      <h3 id="danshenModalTitle" class="modal__title">丹蔘茶系列</h3>
-      <p class="modal__subtitle">三款各有特色，點擊可查看介紹（同頁彈窗，不跳頁）。</p>
-
-      <div class="modal__grid">
-        <button class="modalCard" type="button">
-          <img src="assets/img/danshen-wuda.png" alt="武大漢丹蔘茶" />
-          <div class="modalCard__name">武大漢丹蔘茶</div>
-        </button>
-        <button class="modalCard" type="button">
-          <img src="assets/img/danshen-xianti.png" alt="台灣丹蔘纖體茶" />
-          <div class="modalCard__name">台灣丹蔘纖體茶</div>
-        </button>
-        <button class="modalCard" type="button">
-          <img src="assets/img/danshen-shuhuo.png" alt="台灣丹蔘舒活茶" />
-          <div class="modalCard__name">台灣丹蔘舒活茶</div>
-        </button>
-      </div>
-
-      <div class="modal__note">
-        💬 價格與搭配請洽官方 LINE<br/>
-        📌 可依體質協助搭配建議
-      </div>
+  <!-- Product Modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal__overlay" data-close="true"></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" aria-label="關閉" data-close="true">×</button>
+      <div id="modalContent" class="modal__content"></div>
     </div>
   </div>
 
