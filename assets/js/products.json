@@ -201,7 +201,7 @@
       "id": "biaofeng-suite",
       "name": "彪風再起｜藥粉套組",
       "category": "男性調養系列",
-      "image": "assets/img/products/biaofeng_suite.jpg",
+      "image": "assets/img/biaofengzaici.jpg",
       "subtitle": "淫羊藿（仙靈脾）/ 天仙茅 / 韭菜子",
       "effects": [
         "補養日常活力調養",
@@ -276,7 +276,7 @@
       "id": "dajiubao",
       "name": "大九寶膠囊",
       "category": "男性調養系列",
-      "image": "assets/img/products/dajiubao.jpg",
+      "image": "assets/img/dajiubaojiaonang.jpg",
       "effects": [
         "日常滋補強身",
         "增強體力"
@@ -329,7 +329,7 @@
       "id": "jishenshenqiwan",
       "name": "濟生腎氣丸（1斤裝）",
       "category": "腎氣・體力調養",
-      "image": "assets/img/products/jishenshenqiwan.jpg",
+      "image": "assets/img/jishenshenqiwang.jpg",
       "effects": [
         "溫腎化氣",
         "利水消腫"
