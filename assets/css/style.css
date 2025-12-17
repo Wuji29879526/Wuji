@@ -209,7 +209,7 @@ img{max-width:100%;display:block}
   border-radius:calc(var(--radius) + 6px);
   box-shadow:var(--shadow);
   display:grid;
-  grid-template-columns: 1.15fr .85fr;
+  grid-template-columns: 1fr;
   overflow:hidden;
 }
 .contactCard__left{padding:20px}
@@ -219,32 +219,7 @@ img{max-width:100%;display:block}
 .contactCard__links{margin-top:14px}
 .link{color:var(--accent); font-weight:800; text-decoration:none}
 .link:hover{text-decoration:underline}
-.contactCard__right{
-  padding:20px;
-  border-left:1px solid var(--border);
-  background: linear-gradient(135deg, rgba(31,111,91,.10), rgba(176,122,42,.10));
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-.contactCard__badge{
-  align-self:flex-start;
-  padding:7px 10px;
-  border-radius:999px;
-  background:rgba(31,111,91,.14);
-  border:1px solid rgba(31,111,91,.22);
-  font-weight:900;
-}
-.contactCard__hint{color:var(--muted)}
-.contactCard__qr{
-  margin-top:auto;
-  border-radius:18px;
-  border:1px solid rgba(255,255,255,.55);
-  background:rgba(255,255,255,.55);
-  padding:12px;
-  display:flex; align-items:center; justify-content:center;
-}
-.contactCard__qr img{width:210px; height:auto; object-fit:contain}
+
 
 .footer{
   border-top:1px solid var(--border);
@@ -290,7 +265,6 @@ img{max-width:100%;display:block}
   .hero__inner{grid-template-columns: 1fr}
   .grid{grid-template-columns: repeat(2, minmax(0,1fr))}
   .contactCard{grid-template-columns: 1fr}
-  .contactCard__right{border-left:none; border-top:1px solid var(--border)}
 }
 
 @media (max-width: 560px){
